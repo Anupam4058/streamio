@@ -7,7 +7,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "http://localhost:5000",
+				target: "https://fancy-dasik-13c606.netlify.app",
 			},
 		},
 	},
